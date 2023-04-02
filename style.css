@@ -2,3 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+.header {
+    background-color: aquamarine;
+}
