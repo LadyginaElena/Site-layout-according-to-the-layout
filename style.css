@@ -1,19 +1,58 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .container {
-    max-width: 1920px;
-    margin: 0 auto;
+  max-width: 1920px;
+  height: 1000px;
+  margin: 0 auto;
+  background-image: url("./assets/img/image\ 3.jpg");
 }
 .header {
-    background-color: aquamarine;
-    display: flex;
-    justify-content: space-between;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
 }
-.nav ul {
-    list-style: none;
-    gap: 20px;
-    font-size: 18px;
-    font-family: Poppins;
+.nav-elem {
+  list-style: none;
+  font-size: 18px;
+  font-family: Poppins;
+}
+.nav {
+  display: flex;
+  gap: 20px;
+}
+.content {
+  display: flex;
+  color: white;
+  justify-content: center;
+}
+.nav a {
+  list-style: none;
+  text-decoration: none;
+}
+.search {
+  height: 60px;
+  width: 360px;
+  border-color: white;
+  border-radius: 30px;
+}
+.search::placeholder {
+  font-size: 14px;
+  font-family: Poppins;
+}
+.search::-moz-focus-inner{
+  list-style: none;
+}
+
+.text_bolder {
+  font-size: 48px;
+  font-family: Poppins;
+  font-style: normal;
+  margin-top: 236px;
+}
+.text_small {
+  font-size: 18px;
+  font-family: Poppins;
+  margin-top: 40px;
 }
