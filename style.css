@@ -56,3 +56,26 @@
   font-family: Poppins;
   margin-top: 40px;
 }
+.card-box {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 36px;
+  font-family: Poppins;
+  color: #564E4E;
+}
+.card {
+  font-size: 18px;
+  font-family: Poppins;
+  color: #564E4E;
+}
+.more_info {
+  color: #F79489;
+  font-size: 18px;
+  font-family: Poppins;
+}
+.card-icon {
+   font-weight: 60px;
+   height: 60px;
+}
