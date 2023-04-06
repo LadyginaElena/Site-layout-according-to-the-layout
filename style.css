@@ -12,6 +12,7 @@
     background-image: url("./assets/img/backgound.jpg");
     background-color: rgba(0, 0, 0, 0.25);
     background-size: cover;
+    max-width: 100%;
 }
 
 .header {
@@ -20,12 +21,15 @@
     align-items: center;
     padding-top: 38px;
 }
+
 .logo {
     padding-left: 72px;
 }
+
 .nav_menu {
     padding-right: 94px;
 }
+
 .cart {
     padding-right: 72px;
 }
@@ -65,7 +69,7 @@
 }
 
 .search-box {
-    margin-top: 60px;
+    margin-top: 58px;
     padding-bottom: 388px;
 }
 
@@ -116,22 +120,26 @@
     line-height: 200%;
 }
 
+.choose-box {
+    margin: 73px;
+}
+
 .card-box {
     display: flex;
     justify-content: space-between;
-    margin-top: 21px;
-    margin-left: 72px;
-    margin-right: 72px;
+    margin-top: 15px;
+    margin-bottom: 200px;
     border: 1px solid transparent;
-    gap: 15px;
+    gap: 20px;
 }
 
 .title {
     font-size: 36px;
+    font-weight: 500;
     font-family: Poppins;
     color: #564e4e;
-    padding-top: 87px;
-    padding-left: 76px;
+    margin-top: 80px;
+    line-height: 200%;
 }
 
 .card {
@@ -142,6 +150,7 @@
     width: 425px;
     height: 280px;
 }
+
 .card:hover {
     background: rgba(255, 255, 255, 0.2);
     border: 1px solid #FADCD9;
@@ -154,19 +163,54 @@
     font-size: 18px;
     font-family: Poppins;
     margin-top: 20px;
+    line-height: 200%;
 }
 
 .card-icon {
     height: 60px;
-    margin:18px;
+    margin: 18px;
 }
+
 .description {
-    margin-top: 11px;
+    margin-top: 7px;
     padding-left: 20px;
     line-height: 200%;
 }
-h4  {
+
+h4 {
     margin-top: -9px;
     padding-left: 20px;
     line-height: 200%;
+}
+.desc {
+    font-family: Poppins;
+    font-size: 18px;
+    color:#564E4E;
+    line-height: 200%;
+    margin-top: 20px;
+    ;
+}
+.two{
+    margin-top: 0;
+}
+.ideas {
+    margin: 73px;
+    display: flex;
+}
+.desc_300{
+    font-weight: 300;
+    font-family: Poppins;
+    font-size: 18px;
+    line-height: 200%;
+    margin-top: 20px;
+}
+.desc_margin {
+    font-family: Poppins;
+    font-size: 18px;
+    color:#564E4E;
+    line-height: 200%;
+    margin-top: 39px;
+}
+.interior {
+    max-width: 900px;
 }
