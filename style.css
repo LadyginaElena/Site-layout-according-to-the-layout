@@ -216,11 +216,59 @@ h4 {
 }
 .product-box {
     margin: 80px;
+
 }
-.three {
+.three, .four {
     text-align: center;
 }
 .product_cards {
     display: flex;
     justify-content: space-between;
+}
+.rewiew {
+    margin: 80px;
+}
+.rewiew-box {
+    display: flex;
+    justify-content: space-between;
+}
+.four {
+    margin-top: 80px;
+}
+.you_room-box {
+    display: flex;
+    margin: 65px;
+}
+.footer-box {
+    display: flex;
+    background: linear-gradient(275.58deg, #000000 0%, #4B4B4B 100%);
+}
+.logo_2{
+    height: 70px;
+    width: 238px;
+}
+.footer_menu {
+    display: flex;
+}
+.footer_menu .title {
+    color: #FADCD9;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+
+}
+
+.footer_menu li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+.colomn {
+    display: flex;
+    flex-direction: column;
 }
